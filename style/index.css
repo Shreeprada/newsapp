@@ -1,0 +1,23 @@
+#sidebar{
+    width:130px;
+    height:400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#sidebar>h3{
+background-color: teal;
+color:white;
+border:1px solid white;
+height:45px;
+cursor: pointer;
+}
+#container{
+    display: flex;
+}
+#news{
+    display:flex;
+}
+.news>img{
+    width:300px;
+}

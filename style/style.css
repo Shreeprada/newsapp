@@ -1,0 +1,11 @@
+#navbar{
+    display:flex;
+    gap:30px;
+}
+#search_input{
+    width:70%;
+    height:25px;
+    border:1px solid teal;
+    border-radius: 30px;
+    margin-top: 25px;
+}
