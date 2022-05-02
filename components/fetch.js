@@ -1,6 +1,6 @@
-let Csearch=async (ID)=>{
-    console.log("id:",ID);
-let res=await fetch(`https://masai-mock-api.herokuapp.com/news/top-headlines?country=${ID}`);
+let Csearch=async (id)=>{
+    console.log("id:",id);
+let res=await fetch(`https://masai-mock-api.herokuapp.com/news/top-headlines?country=${id}`);
 let data=await res.json();
 //console.log("data:",data.articles);
 return data.articles;
